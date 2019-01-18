@@ -5,7 +5,7 @@ import {
   ADD_NOTE,
   REMOVE_NOTE,
   SET_NOTE
-} from "./mutation-types"
+} from './mutation-types'
 
 Vue.use(Vuex)
 
@@ -66,15 +66,3 @@ export default new Vuex.Store({
   actions,
   mutations
 })
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,7 +7,7 @@ export const Note = {
     })
   },
   delete (note) {
-    return HTTP.delete(`/notes/${note.id}`)
+    return HTTP.delete(`/notes/${note.id}/`)
   },
   list () {
     return HTTP.get('/notes/').then(response => {
